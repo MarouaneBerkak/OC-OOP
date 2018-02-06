@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - exercicepoo@localhost" uuid="184b7008-a15c-421b-9db1-210de3f70480">
+    <database-info product="MySQL" version="5.7.19" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="exercicepoo"/>
+      <table id="2" parent="1" name="question"/>
+      <table id="3" parent="1" name="reply"/>
+      <table id="4" parent="1" name="user"/>
+      <column id="5" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="6" parent="2" name="question">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="7" parent="2" name="published">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="8" parent="2" name="userId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="9" parent="2" name="date">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="10" parent="2" name="user_question_fk">
+        <columns>userId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="11" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="12" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="13" parent="3" name="reply">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="14" parent="3" name="questionId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="15" parent="3" name="userId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="16" parent="3" name="date">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="17" parent="3" name="question_reply_fk">
+        <columns>questionId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="18" parent="3" name="user_reply_fk">
+        <columns>userId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="19" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="20" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="21" parent="4" name="emailAddress">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="22" parent="4" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="23" parent="4" name="firstName">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="24" parent="4" name="surname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <index id="25" parent="4" name="user_emailAddress_uindex">
+        <columns>emailAddress</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="26" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="27" parent="4" name="user_emailAddress_uindex">
+        <columns>emailAddress</columns>
+        <underlying-index>user_emailAddress_uindex</underlying-index>
+      </key>
+    </database-model>
+  </data-source>
+</component>
