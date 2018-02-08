@@ -1,8 +1,7 @@
 <?php
 namespace Ask\App;
-class User
+class User extends App
 {
-    protected $id;
     protected $firstName;
     protected $surname;
     protected $emailAddress;

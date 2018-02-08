@@ -8,7 +8,6 @@ class ReplyManager extends Manager
     {
         $this->db = $this->dbConnect();
     }
-
     public function create(Reply $reply)
     {
         $req = $this->db->prepare('INSERT INTO reply (reply, questionId, userId, date) VALUES (:reply, :questionId, :userId, NOW()) ');

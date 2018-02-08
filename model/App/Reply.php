@@ -1,8 +1,7 @@
 <?php
 namespace Ask\App;
-class Reply
+class Reply extends App
 {
-    protected $id;
     protected $reply;
     protected $questionId;
     protected $userId;

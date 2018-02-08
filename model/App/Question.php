@@ -1,8 +1,7 @@
 <?php
 namespace Ask\App;
-class Question
+class Question extends App
 {
-    protected $id;
     protected $question;
     protected $published;
     protected $userId;
