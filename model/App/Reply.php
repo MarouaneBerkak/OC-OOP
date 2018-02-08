@@ -1,5 +1,5 @@
 <?php
-
+namespace Ask\App;
 class Reply
 {
     protected $id;

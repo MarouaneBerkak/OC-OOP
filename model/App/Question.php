@@ -1,5 +1,5 @@
 <?php
-
+namespace Ask\App;
 class Question
 {
     protected $id;

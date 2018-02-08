@@ -1,4 +1,9 @@
 <?php
+namespace Ask;
+
+use Ask\App\User;
+use Ask\App\Question;
+use \PDO;
 
 class QuestionManager extends Manager
 {

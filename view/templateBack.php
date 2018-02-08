@@ -1,3 +1,7 @@
+<?php
+use Ask\QuestionManager;
+use Ask\ReplyManager;
+?>
 <!doctype html>
 <html lang="en">
 <head>

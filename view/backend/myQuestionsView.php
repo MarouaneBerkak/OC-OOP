@@ -1,4 +1,7 @@
 <?php
+
+use Ask\QuestionManager;
+
 if(isset($_SESSION['user']))
 {
     $user = $_SESSION['user'];
@@ -84,7 +87,6 @@ else
     <?php
 }
 ?>
-
 
 <?php
 $content = ob_get_clean();

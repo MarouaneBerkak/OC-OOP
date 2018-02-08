@@ -1,5 +1,7 @@
 <?php
-
+namespace Ask;
+use Ask\App\Reply;
+use Ask\App\User;
 class ReplyManager extends Manager
 {
     public function __construct()
@@ -11,9 +13,9 @@ class ReplyManager extends Manager
     {
         $req = $this->db->prepare('INSERT INTO reply (reply, questionId, userId, date) VALUES (:reply, :questionId, :userId, NOW()) ');
 
-        $req->bindValue(':reply', $reply->getReply(), PDO::PARAM_STR);
-        $req->bindValue(':questionId', $reply->getQuestionId(), PDO::PARAM_INT);
-        $req->bindValue(':userId', $reply->getUserId(), PDO::PARAM_INT);
+        $req->bindValue(':reply', $reply->getReply(), \PDO::PARAM_STR);
+        $req->bindValue(':questionId', $reply->getQuestionId(), \PDO::PARAM_INT);
+        $req->bindValue(':userId', $reply->getUserId(), \PDO::PARAM_INT);
 
         $req->execute();
         $reply->hydrate(array(
@@ -29,15 +31,15 @@ class ReplyManager extends Manager
     public function Last($questionId)
     {
         $req = $this->db->prepare('SELECT * FROM reply WHERE questionId = :id ORDER BY id DESC LIMIT 0, 1');
-        $req->bindValue(':id', $questionId, PDO::PARAM_INT);
+        $req->bindValue(':id', $questionId, \PDO::PARAM_INT);
         $req->execute();
-        $data = $req->fetch(PDO::FETCH_ASSOC);
+        $data = $req->fetch(\PDO::FETCH_ASSOC);
         return $data;
     }
     public function countAnsweredQuestions(User $user)
     {
         $req = $this->db->prepare('SELECT COUNT(*) FROM reply WHERE userId = :id');
-        $req->bindValue(':id', $user->getId(), PDO::PARAM_INT);
+        $req->bindValue(':id', $user->getId(), \PDO::PARAM_INT);
         $req->execute();
         return $req->fetchColumn();
     }

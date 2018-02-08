@@ -1,5 +1,6 @@
 <?php
-
+namespace Ask;
+use Ask\App\User;
 class UserManager extends Manager
 {
     public function __construct()
@@ -10,10 +11,10 @@ class UserManager extends Manager
     {
         $req = $this->db->prepare('INSERT INTO user (emailAddress, password, firstName, surname) VALUES (:emailAddress, :password, :firstName, :surname)');
 
-        $req->bindValue(':emailAddress', $user->getEmailAddress(), PDO::PARAM_STR);
-        $req->bindValue(':password', $user->getPassword(), PDO::PARAM_STR);
-        $req->bindValue(':firstName', $user->getFirstName(), PDO::PARAM_STR);
-        $req->bindValue(':surname', $user->getSurname(), PDO::PARAM_STR);
+        $req->bindValue(':emailAddress', $user->getEmailAddress(), \PDO::PARAM_STR);
+        $req->bindValue(':password', $user->getPassword(), \PDO::PARAM_STR);
+        $req->bindValue(':firstName', $user->getFirstName(), \PDO::PARAM_STR);
+        $req->bindValue(':surname', $user->getSurname(), \PDO::PARAM_STR);
 
         $req->execute();
 
@@ -26,9 +27,9 @@ class UserManager extends Manager
         if(is_string($info))
         {
             $req = $this->db->prepare('SELECT * FROM user WHERE emailAddress = :emailAddress');
-            $req->bindValue(':emailAddress', $info, PDO::PARAM_STR);
+            $req->bindValue(':emailAddress', $info, \PDO::PARAM_STR);
             $req->execute();
-            $data = $req->fetch(PDO::FETCH_ASSOC);
+            $data = $req->fetch(\PDO::FETCH_ASSOC);
             $user = new User($data);
             return $user;
         }
@@ -38,7 +39,7 @@ class UserManager extends Manager
         if(is_string($info))
         {
             $req = $this->db->prepare('SELECT COUNT(*) FROM user WHERE emailAddress =:emailAddress');
-            $req->bindValue(':emailAddress', $info, PDO::PARAM_STR);
+            $req->bindValue(':emailAddress', $info, \PDO::PARAM_STR);
             $req->execute();
             return (bool) $req->fetchColumn();
         }

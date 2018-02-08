@@ -1,10 +1,14 @@
 <?php
 
-function classLoad($class)
-{
-    require('model/'.$class.'.php');
-}
-spl_autoload_register('classLoad');
+use Ask\App\Reply;
+use Ask\App\User;
+use Ask\App\Question;
+use Ask\QuestionManager;
+use Ask\ReplyManager;
+use Ask\UserManager;
+
+require('model/Autoloader.php');
+Ask\Autoloader::register();
 
 function logInView()
 {
@@ -87,7 +91,7 @@ function postReply(array $data)
     if($last['userId'] != $reply->getUserId() OR $last['reply'] != $reply->getReply())
     {
         $replyManager->create($reply);
-        $_SESSION['success'] = 'Your reply is succefuly posted';
+        $_SESSION['success'] = 'Your reply is successfully posted';
     }
 }
 function backQuestions()

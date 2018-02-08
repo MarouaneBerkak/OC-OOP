@@ -1,5 +1,8 @@
 <?php
 
+use Ask\QuestionManager;
+use Ask\ReplyManager;
+
 if(isset($_SESSION['user']))
 {
     $user = $_SESSION['user'];
