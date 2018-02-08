@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19b533c6-94fb-4521-8254-2704056a378a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/myQuestionsView.php" afterPath="$PROJECT_DIR$/view/backend/myQuestionsView.php" />
     </list>
     <ignored path="Exercice POO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,52 +76,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Manager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/Manager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myQuestionsView.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myQuestionsView.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/backend/myQuestionsView.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1470">
               <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smallProfile.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/img/smallProfile.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/Question.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding>
-                <element signature="n#__construct#0;n#Question#0;n#!!top" expanded="false" />
-                <element signature="n#hydrate#0;n#Question#0;n#!!top" expanded="false" />
-                <element signature="n#setID#0;n#Question#0;n#!!top" expanded="false" />
-                <element signature="n#setQuestion#0;n#Question#0;n#!!top" expanded="false" />
-                <element signature="n#setPublished#0;n#Question#0;n#!!top" expanded="false" />
-                <element signature="n#setUserId#0;n#Question#0;n#!!top" expanded="false" />
-                <element signature="n#setDate#0;n#Question#0;n#!!top" expanded="false" />
-                <element signature="n#getId#0;n#Question#0;n#!!top" expanded="false" />
-                <element signature="n#getQuestion#0;n#Question#0;n#!!top" expanded="false" />
-                <element signature="n#getPublished#0;n#Question#0;n#!!top" expanded="false" />
-                <element signature="n#getUserId#0;n#Question#0;n#!!top" expanded="false" />
-                <element signature="n#getDate#0;n#Question#0;n#!!top" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +92,6 @@
             <state relative-caret-position="120">
               <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding>
-                <element signature="n#__construct#0;n#User#0;n#!!top" expanded="false" />
                 <element signature="n#hydrate#0;n#User#0;n#!!top" expanded="false" />
                 <element signature="n#setID#0;n#User#0;n#!!top" expanded="false" />
                 <element signature="n#setFirstName#0;n#User#0;n#!!top" expanded="false" />
@@ -151,6 +108,70 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="UserManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/UserManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="n#__construct#0;n#UserManager#0;n#!!top" expanded="false" />
+                <element signature="n#read#0;n#UserManager#0;n#!!top" expanded="false" />
+                <element signature="n#exists#0;n#UserManager#0;n#!!top" expanded="false" />
+                <marker date="1517908867952" expanded="true" signature="209:225" placeholder="INSERT INTO user... " />
+                <marker date="1517908867952" expanded="true" signature="209:227" placeholder="INSERT INTO user... " />
+                <marker date="1517908867952" expanded="true" signature="209:326" placeholder="INSERT INTO user... " />
+                <marker date="1517908867952" expanded="true" signature="886:925" placeholder="SELECT * FRO... user" />
+                <marker date="1517908867952" expanded="true" signature="886:939" placeholder="SELECT * FRO... user" />
+                <marker date="1517908867952" expanded="true" signature="886:941" placeholder="SELECT * FRO... user" />
+                <marker date="1517908867952" expanded="true" signature="1289:1348" placeholder="SELECT COUNT... user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questionListView.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/frontend/questionListView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2190">
+              <caret line="73" column="24" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <folding>
+                <element signature="n#classLoad#0;n#!!top" expanded="false" />
+                <element signature="n#logInView#0;n#!!top" expanded="false" />
+                <element signature="n#logOut#0;n#!!top" expanded="false" />
+                <element signature="n#createUser#0;n#!!top" expanded="false" />
+                <element signature="e#350#772#0#PHP" expanded="false" />
+                <element signature="n#logIn#0;n#!!top" expanded="false" />
+                <element signature="n#questionList#0;n#!!top" expanded="false" />
+                <element signature="n#postQuestion#0;n#!!top" expanded="false" />
+                <element signature="n#postReply#0;n#!!top" expanded="false" />
+                <element signature="n#backQuestions#0;n#!!top" expanded="false" />
+                <element signature="n#updateQuestion#0;n#!!top" expanded="false" />
+                <element signature="n#deleteQuestion#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Reply.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/Reply.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -159,6 +180,7 @@
               <folding>
                 <element signature="n#__construct#0;n#Reply#0;n#!!top" expanded="false" />
                 <element signature="n#hydrate#0;n#Reply#0;n#!!top" expanded="false" />
+                <element signature="n#setID#0;n#Reply#0;n#!!top" expanded="false" />
                 <element signature="n#setReply#0;n#Reply#0;n#!!top" expanded="false" />
                 <element signature="n#setQuestionId#0;n#Reply#0;n#!!top" expanded="false" />
                 <element signature="n#setUserId#0;n#Reply#0;n#!!top" expanded="false" />
@@ -169,6 +191,46 @@
                 <element signature="n#getUserId#0;n#Reply#0;n#!!top" expanded="false" />
                 <element signature="n#getDate#0;n#Reply#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReplyManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/ReplyManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="n#__construct#0;n#ReplyManager#0;n#!!top" expanded="false" />
+                <element signature="n#read#0;n#ReplyManager#0;n#!!top" expanded="false" />
+                <element signature="n#Last#0;n#ReplyManager#0;n#!!top" expanded="false" />
+                <element signature="n#countAnsweredQuestions#0;n#ReplyManager#0;n#!!top" expanded="false" />
+                <marker date="1517994810178" expanded="true" signature="213:309" placeholder="INSERT INTO reply... " />
+                <marker date="1517994810178" expanded="true" signature="782:890" placeholder="SELECT reply... " />
+                <marker date="1517994810178" expanded="true" signature="782:920" placeholder="SELECT reply... " />
+                <marker date="1517994810178" expanded="true" signature="1030:1100" placeholder="SELECT * FRO... reply" />
+                <marker date="1517994810178" expanded="true" signature="1361:1406" placeholder="SELECT COUNT... reply" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templateBack.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/templateBack.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logInView.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/frontend/logInView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1590">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -268,21 +330,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Exercice POO">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,112 +390,23 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OC-OOP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Exercice POO">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -521,12 +479,15 @@
       <workItem from="1517822071290" duration="22635000" />
       <workItem from="1517900830478" duration="8836000" />
       <workItem from="1517931217048" duration="2171000" />
-      <workItem from="1517994502446" duration="1245000" />
+      <workItem from="1517994502446" duration="1837000" />
+      <workItem from="1518022554573" duration="976000" />
+      <workItem from="1518106317664" duration="781000" />
+      <workItem from="1518124519903" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81866000" />
+    <option name="totallyTimeSpent" value="84242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,39 +591,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/QuestionManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
-          <folding>
-            <element signature="n#__construct#0;n#QuestionManager#0;n#!!top" expanded="false" />
-            <element signature="n#create#0;n#QuestionManager#0;n#!!top" expanded="false" />
-            <element signature="e#621#736#1#PHP" expanded="false" />
-            <element signature="n#read#0;n#QuestionManager#0;n#!!top" expanded="false" />
-            <element signature="n#update#0;n#QuestionManager#0;n#!!top" expanded="false" />
-            <element signature="n#delete#0;n#QuestionManager#0;n#!!top" expanded="false" />
-            <element signature="n#exists#0;n#QuestionManager#0;n#!!top" expanded="false" />
-            <element signature="n#countPubQuestions#0;n#QuestionManager#0;n#!!top" expanded="false" />
-            <element signature="n#countUnpubQuestions#0;n#QuestionManager#0;n#!!top" expanded="false" />
-            <element signature="n#countQuestions#0;n#QuestionManager#0;n#!!top" expanded="false" />
-            <element signature="n#readUserPubQuestions#0;n#QuestionManager#0;n#!!top" expanded="false" />
-            <element signature="n#readUserUnpubQuestions#0;n#QuestionManager#0;n#!!top" expanded="false" />
-            <marker date="1517994810113" expanded="true" signature="221:324" placeholder="INSERT INTO question... " />
-            <marker date="1517994810113" expanded="true" signature="812:886" placeholder="SELECT * FRO... question" />
-            <marker date="1517994810113" expanded="true" signature="812:963" placeholder="SELECT * FRO... question" />
-            <marker date="1517994810113" expanded="true" signature="812:968" placeholder="SELECT quest... " />
-            <marker date="1517994810113" expanded="true" signature="1080:1137" placeholder="UPDATE quest... " />
-            <marker date="1517994810113" expanded="true" signature="1379:1414" placeholder="DELETE FROM " />
-            <marker date="1517994810113" expanded="true" signature="1590:1709" placeholder="SELECT * FRO... question" />
-            <marker date="1517994810113" expanded="true" signature="2030:2095" placeholder="SELECT COUNT... question" />
-            <marker date="1517994810113" expanded="true" signature="2323:2388" placeholder="SELECT COUNT... question" />
-            <marker date="1517994810113" expanded="true" signature="2611:2659" placeholder="SELECT COUNT... question" />
-            <marker date="1517994810113" expanded="true" signature="2888:2947" placeholder="SELECT * FRO... question" />
-            <marker date="1517994810113" expanded="true" signature="3163:3222" placeholder="SELECT * FRO... question" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/9d3d9e09/184b7008-a15c-421b-9db1-210de3f70480/exercicepoo.question" />
     <entry file="file://$PROJECT_DIR$/model/UserManager.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -670,7 +598,6 @@
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="n#__construct#0;n#UserManager#0;n#!!top" expanded="false" />
-            <element signature="n#create#0;n#UserManager#0;n#!!top" expanded="false" />
             <element signature="n#read#0;n#UserManager#0;n#!!top" expanded="false" />
             <element signature="n#exists#0;n#UserManager#0;n#!!top" expanded="false" />
             <marker date="1517908867952" expanded="true" signature="209:225" placeholder="INSERT INTO user... " />
@@ -711,7 +638,6 @@
             <element signature="n#logOut#0;n#!!top" expanded="false" />
             <element signature="n#createUser#0;n#!!top" expanded="false" />
             <element signature="e#350#772#0#PHP" expanded="false" />
-            <element signature="e#532#772#0#PHP" expanded="false" />
             <element signature="n#logIn#0;n#!!top" expanded="false" />
             <element signature="n#questionList#0;n#!!top" expanded="false" />
             <element signature="n#postQuestion#0;n#!!top" expanded="false" />
@@ -763,7 +689,6 @@
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="n#__construct#0;n#UserManager#0;n#!!top" expanded="false" />
-            <element signature="n#create#0;n#UserManager#0;n#!!top" expanded="false" />
             <element signature="n#read#0;n#UserManager#0;n#!!top" expanded="false" />
             <element signature="n#exists#0;n#UserManager#0;n#!!top" expanded="false" />
             <marker date="1517908867952" expanded="true" signature="209:225" placeholder="INSERT INTO user... " />
@@ -804,7 +729,6 @@
             <element signature="n#logOut#0;n#!!top" expanded="false" />
             <element signature="n#createUser#0;n#!!top" expanded="false" />
             <element signature="e#350#772#0#PHP" expanded="false" />
-            <element signature="e#532#772#0#PHP" expanded="false" />
             <element signature="n#logIn#0;n#!!top" expanded="false" />
             <element signature="n#questionList#0;n#!!top" expanded="false" />
             <element signature="n#postQuestion#0;n#!!top" expanded="false" />
@@ -843,7 +767,6 @@
           <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="n#__construct#0;n#UserManager#0;n#!!top" expanded="false" />
-            <element signature="n#create#0;n#UserManager#0;n#!!top" expanded="false" />
             <element signature="n#read#0;n#UserManager#0;n#!!top" expanded="false" />
             <element signature="n#exists#0;n#UserManager#0;n#!!top" expanded="false" />
             <marker date="1517908867952" expanded="true" signature="209:225" placeholder="INSERT INTO user... " />
@@ -1000,13 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/frontend/logInView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/9d3d9e09/184b7008-a15c-421b-9db1-210de3f70480/exercicepoo.user" />
     <entry file="dbDummy://dbtable:/9d3d9e09/184b7008-a15c-421b-9db1-210de3f70480/exercicepoo.question" />
     <entry file="dbDummy://dbtable:/9d3d9e09/184b7008-a15c-421b-9db1-210de3f70480/exercicepoo.reply" />
@@ -1022,14 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,115 +981,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/ReplyManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-          <folding>
-            <element signature="n#__construct#0;n#ReplyManager#0;n#!!top" expanded="false" />
-            <element signature="n#create#0;n#ReplyManager#0;n#!!top" expanded="false" />
-            <element signature="n#read#0;n#ReplyManager#0;n#!!top" expanded="false" />
-            <element signature="n#Last#0;n#ReplyManager#0;n#!!top" expanded="false" />
-            <element signature="n#countAnsweredQuestions#0;n#ReplyManager#0;n#!!top" expanded="false" />
-            <marker date="1517994810178" expanded="true" signature="213:309" placeholder="INSERT INTO reply... " />
-            <marker date="1517994810178" expanded="true" signature="782:890" placeholder="SELECT reply... " />
-            <marker date="1517994810178" expanded="true" signature="782:920" placeholder="SELECT reply... " />
-            <marker date="1517994810178" expanded="true" signature="1030:1100" placeholder="SELECT * FRO... reply" />
-            <marker date="1517994810178" expanded="true" signature="1361:1406" placeholder="SELECT COUNT... reply" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/UserManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="n#__construct#0;n#UserManager#0;n#!!top" expanded="false" />
-            <element signature="n#create#0;n#UserManager#0;n#!!top" expanded="false" />
-            <element signature="n#read#0;n#UserManager#0;n#!!top" expanded="false" />
-            <element signature="n#exists#0;n#UserManager#0;n#!!top" expanded="false" />
-            <marker date="1517908867952" expanded="true" signature="209:225" placeholder="INSERT INTO user... " />
-            <marker date="1517908867952" expanded="true" signature="209:227" placeholder="INSERT INTO user... " />
-            <marker date="1517908867952" expanded="true" signature="209:326" placeholder="INSERT INTO user... " />
-            <marker date="1517908867952" expanded="true" signature="886:925" placeholder="SELECT * FRO... user" />
-            <marker date="1517908867952" expanded="true" signature="886:939" placeholder="SELECT * FRO... user" />
-            <marker date="1517908867952" expanded="true" signature="886:941" placeholder="SELECT * FRO... user" />
-            <marker date="1517908867952" expanded="true" signature="1289:1348" placeholder="SELECT COUNT... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding>
-            <element signature="n#classLoad#0;n#!!top" expanded="false" />
-            <element signature="n#logInView#0;n#!!top" expanded="false" />
-            <element signature="n#logOut#0;n#!!top" expanded="false" />
-            <element signature="n#createUser#0;n#!!top" expanded="false" />
-            <element signature="e#350#772#0#PHP" expanded="false" />
-            <element signature="e#532#772#0#PHP" expanded="false" />
-            <element signature="n#logIn#0;n#!!top" expanded="false" />
-            <element signature="n#questionList#0;n#!!top" expanded="false" />
-            <element signature="n#postQuestion#0;n#!!top" expanded="false" />
-            <element signature="n#postReply#0;n#!!top" expanded="false" />
-            <element signature="n#backQuestions#0;n#!!top" expanded="false" />
-            <element signature="n#updateQuestion#0;n#!!top" expanded="false" />
-            <element signature="n#deleteQuestion#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/templateBack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="75" column="116" selection-start-line="75" selection-start-column="116" selection-end-line="75" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/frontend/questionListView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/Manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <element signature="n#__construct#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="n#hydrate#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="n#setID#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="n#setFirstName#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="n#setSurname#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="n#setEmailAddress#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="n#setPassword#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="n#getId#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="n#getFirstName#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="n#getSurname#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="n#getEmailAddress#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="n#getPassword#0;n#User#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/Question.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="120">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding>
             <element signature="n#__construct#0;n#Question#0;n#!!top" expanded="false" />
@@ -1200,6 +1009,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/smallProfile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/backend/myQuestionsView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="n#hydrate#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#setID#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#setFirstName#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#setSurname#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#setEmailAddress#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#setPassword#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#getId#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#getFirstName#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#getSurname#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#getEmailAddress#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#getPassword#0;n#User#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/UserManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="n#__construct#0;n#UserManager#0;n#!!top" expanded="false" />
+            <element signature="n#read#0;n#UserManager#0;n#!!top" expanded="false" />
+            <element signature="n#exists#0;n#UserManager#0;n#!!top" expanded="false" />
+            <marker date="1517908867952" expanded="true" signature="209:225" placeholder="INSERT INTO user... " />
+            <marker date="1517908867952" expanded="true" signature="209:227" placeholder="INSERT INTO user... " />
+            <marker date="1517908867952" expanded="true" signature="209:326" placeholder="INSERT INTO user... " />
+            <marker date="1517908867952" expanded="true" signature="886:925" placeholder="SELECT * FRO... user" />
+            <marker date="1517908867952" expanded="true" signature="886:939" placeholder="SELECT * FRO... user" />
+            <marker date="1517908867952" expanded="true" signature="886:941" placeholder="SELECT * FRO... user" />
+            <marker date="1517908867952" expanded="true" signature="1289:1348" placeholder="SELECT COUNT... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/frontend/questionListView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/Reply.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1207,6 +1084,7 @@
           <folding>
             <element signature="n#__construct#0;n#Reply#0;n#!!top" expanded="false" />
             <element signature="n#hydrate#0;n#Reply#0;n#!!top" expanded="false" />
+            <element signature="n#setID#0;n#Reply#0;n#!!top" expanded="false" />
             <element signature="n#setReply#0;n#Reply#0;n#!!top" expanded="false" />
             <element signature="n#setQuestionId#0;n#Reply#0;n#!!top" expanded="false" />
             <element signature="n#setUserId#0;n#Reply#0;n#!!top" expanded="false" />
@@ -1220,16 +1098,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/smallProfile.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/exercicepoo.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/backend/myQuestionsView.php">
+    <entry file="file://$PROJECT_DIR$/model/ReplyManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="n#__construct#0;n#ReplyManager#0;n#!!top" expanded="false" />
+            <element signature="n#read#0;n#ReplyManager#0;n#!!top" expanded="false" />
+            <element signature="n#Last#0;n#ReplyManager#0;n#!!top" expanded="false" />
+            <element signature="n#countAnsweredQuestions#0;n#ReplyManager#0;n#!!top" expanded="false" />
+            <marker date="1517994810178" expanded="true" signature="213:309" placeholder="INSERT INTO reply... " />
+            <marker date="1517994810178" expanded="true" signature="782:890" placeholder="SELECT reply... " />
+            <marker date="1517994810178" expanded="true" signature="782:920" placeholder="SELECT reply... " />
+            <marker date="1517994810178" expanded="true" signature="1030:1100" placeholder="SELECT * FRO... reply" />
+            <marker date="1517994810178" expanded="true" signature="1361:1406" placeholder="SELECT COUNT... reply" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/templateBack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/frontend/logInView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="n#classLoad#0;n#!!top" expanded="false" />
+            <element signature="n#logInView#0;n#!!top" expanded="false" />
+            <element signature="n#logOut#0;n#!!top" expanded="false" />
+            <element signature="n#createUser#0;n#!!top" expanded="false" />
+            <element signature="e#350#772#0#PHP" expanded="false" />
+            <element signature="n#logIn#0;n#!!top" expanded="false" />
+            <element signature="n#questionList#0;n#!!top" expanded="false" />
+            <element signature="n#postQuestion#0;n#!!top" expanded="false" />
+            <element signature="n#postReply#0;n#!!top" expanded="false" />
+            <element signature="n#backQuestions#0;n#!!top" expanded="false" />
+            <element signature="n#updateQuestion#0;n#!!top" expanded="false" />
+            <element signature="n#deleteQuestion#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
