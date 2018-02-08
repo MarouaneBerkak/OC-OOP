@@ -2,10 +2,10 @@
 namespace Ask\App;
 class Question extends App
 {
-    protected $question;
-    protected $published;
-    protected $userId;
-    protected $date;
+    private $question;
+    private $published;
+    private $userId;
+    private $date;
 
     public function __construct(array $data)
     {

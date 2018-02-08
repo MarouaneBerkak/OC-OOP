@@ -2,10 +2,10 @@
 namespace Ask\App;
 class User extends App
 {
-    protected $firstName;
-    protected $surname;
-    protected $emailAddress;
-    protected $password;
+    private $firstName;
+    private $surname;
+    private $emailAddress;
+    private $password;
 
     public function __construct(array $data)
     {

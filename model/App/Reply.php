@@ -2,10 +2,10 @@
 namespace Ask\App;
 class Reply extends App
 {
-    protected $reply;
-    protected $questionId;
-    protected $userId;
-    protected $date;
+    private $reply;
+    private $questionId;
+    private $userId;
+    private $date;
 
     public function __construct(array $data)
     {

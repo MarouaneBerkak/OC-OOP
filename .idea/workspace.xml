@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19b533c6-94fb-4521-8254-2704056a378a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/App/Question.php" afterPath="$PROJECT_DIR$/model/App/Question.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/App/Reply.php" afterPath="$PROJECT_DIR$/model/App/Reply.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/App/User.php" afterPath="$PROJECT_DIR$/model/App/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/ReplyManager.php" afterPath="$PROJECT_DIR$/model/ReplyManager.php" />
     </list>
     <ignored path="Exercice POO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,46 +78,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/App/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
-                <element signature="e#247#514#0#PHP" expanded="false" />
-                <element signature="e#520#587#0#PHP" expanded="false" />
-                <element signature="e#592#690#0#PHP" expanded="false" />
-                <element signature="e#695#785#0#PHP" expanded="false" />
-                <element signature="e#790#900#0#PHP" expanded="false" />
-                <element signature="e#905#999#0#PHP" expanded="false" />
-                <element signature="e#1005#1066#0#PHP" expanded="false" />
-                <element signature="e#1071#1146#0#PHP" expanded="false" />
-                <element signature="e#1151#1222#0#PHP" expanded="false" />
-                <element signature="e#1227#1308#0#PHP" expanded="false" />
-                <element signature="e#1313#1386#0#PHP" expanded="false" />
+                <element signature="e#239#506#0#PHP" expanded="false" />
+                <element signature="e#512#579#0#PHP" expanded="false" />
+                <element signature="e#584#682#0#PHP" expanded="false" />
+                <element signature="e#687#777#0#PHP" expanded="false" />
+                <element signature="e#782#892#0#PHP" expanded="false" />
+                <element signature="e#897#991#0#PHP" expanded="false" />
+                <element signature="e#997#1058#0#PHP" expanded="false" />
+                <element signature="e#1063#1138#0#PHP" expanded="false" />
+                <element signature="e#1143#1214#0#PHP" expanded="false" />
+                <element signature="e#1219#1300#0#PHP" expanded="false" />
+                <element signature="e#1305#1378#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Question.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Question.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/App/Question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding>
-                <element signature="e#154#237#0#PHP" expanded="false" />
-                <element signature="e#242#509#0#PHP" expanded="false" />
-                <element signature="e#515#582#0#PHP" expanded="false" />
-                <element signature="e#587#681#0#PHP" expanded="false" />
-                <element signature="e#686#781#0#PHP" expanded="false" />
-                <element signature="e#786#869#0#PHP" expanded="false" />
-                <element signature="e#874#952#0#PHP" expanded="false" />
-                <element signature="e#958#1019#0#PHP" expanded="false" />
-                <element signature="e#1024#1097#0#PHP" expanded="false" />
-                <element signature="e#1102#1177#0#PHP" expanded="false" />
-                <element signature="e#1182#1251#0#PHP" expanded="false" />
-                <element signature="e#1256#1321#0#PHP" expanded="false" />
+                <element signature="e#146#229#0#PHP" expanded="false" />
+                <element signature="e#234#501#0#PHP" expanded="false" />
+                <element signature="e#507#574#0#PHP" expanded="false" />
+                <element signature="e#579#673#0#PHP" expanded="false" />
+                <element signature="e#678#773#0#PHP" expanded="false" />
+                <element signature="e#778#861#0#PHP" expanded="false" />
+                <element signature="e#866#944#0#PHP" expanded="false" />
+                <element signature="e#950#1011#0#PHP" expanded="false" />
+                <element signature="e#1016#1089#0#PHP" expanded="false" />
+                <element signature="e#1094#1169#0#PHP" expanded="false" />
+                <element signature="e#1174#1243#0#PHP" expanded="false" />
+                <element signature="e#1248#1313#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -171,21 +169,21 @@
       <file leaf-file-name="Reply.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/App/Reply.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
-                <element signature="e#149#232#0#PHP" expanded="false" />
-                <element signature="e#237#504#0#PHP" expanded="false" />
-                <element signature="e#510#577#0#PHP" expanded="false" />
-                <element signature="e#582#664#0#PHP" expanded="false" />
-                <element signature="e#669#768#0#PHP" expanded="false" />
-                <element signature="e#773#856#0#PHP" expanded="false" />
-                <element signature="e#861#939#0#PHP" expanded="false" />
-                <element signature="e#945#1006#0#PHP" expanded="false" />
-                <element signature="e#1011#1078#0#PHP" expanded="false" />
-                <element signature="e#1083#1160#0#PHP" expanded="false" />
-                <element signature="e#1165#1234#0#PHP" expanded="false" />
-                <element signature="e#1239#1304#0#PHP" expanded="false" />
+                <element signature="e#141#224#0#PHP" expanded="false" />
+                <element signature="e#229#496#0#PHP" expanded="false" />
+                <element signature="e#502#569#0#PHP" expanded="false" />
+                <element signature="e#574#656#0#PHP" expanded="false" />
+                <element signature="e#661#760#0#PHP" expanded="false" />
+                <element signature="e#765#848#0#PHP" expanded="false" />
+                <element signature="e#853#931#0#PHP" expanded="false" />
+                <element signature="e#937#998#0#PHP" expanded="false" />
+                <element signature="e#1003#1070#0#PHP" expanded="false" />
+                <element signature="e#1075#1152#0#PHP" expanded="false" />
+                <element signature="e#1157#1226#0#PHP" expanded="false" />
+                <element signature="e#1231#1296#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -250,11 +248,11 @@
                 <element signature="e#768#1003#0#PHP" expanded="false" />
                 <element signature="e#1008#1319#0#PHP" expanded="false" />
                 <element signature="e#1324#1596#0#PHP" expanded="false" />
-                <marker date="1518132797882" expanded="true" signature="263:359" placeholder="INSERT INTO reply... " />
-                <marker date="1518132797882" expanded="true" signature="835:943" placeholder="SELECT reply... " />
-                <marker date="1518132797882" expanded="true" signature="835:973" placeholder="SELECT reply... " />
-                <marker date="1518132797882" expanded="true" signature="1083:1153" placeholder="SELECT * FRO... reply" />
-                <marker date="1518132797882" expanded="true" signature="1416:1461" placeholder="SELECT COUNT... reply" />
+                <marker date="1518133633933" expanded="true" signature="263:359" placeholder="INSERT INTO reply... " />
+                <marker date="1518133633933" expanded="true" signature="835:943" placeholder="SELECT reply... " />
+                <marker date="1518133633933" expanded="true" signature="835:973" placeholder="SELECT reply... " />
+                <marker date="1518133633933" expanded="true" signature="1083:1153" placeholder="SELECT * FRO... reply" />
+                <marker date="1518133633933" expanded="true" signature="1416:1461" placeholder="SELECT COUNT... reply" />
               </folding>
             </state>
           </provider>
@@ -310,9 +308,9 @@
         <option value="$PROJECT_DIR$/model/ReplyManager.php" />
         <option value="$PROJECT_DIR$/controller/controller.php" />
         <option value="$PROJECT_DIR$/model/App/App.php" />
-        <option value="$PROJECT_DIR$/model/App/Question.php" />
-        <option value="$PROJECT_DIR$/model/App/Reply.php" />
         <option value="$PROJECT_DIR$/model/App/User.php" />
+        <option value="$PROJECT_DIR$/model/App/Reply.php" />
+        <option value="$PROJECT_DIR$/model/App/Question.php" />
       </list>
     </option>
   </component>
@@ -529,12 +527,12 @@
       <workItem from="1517994502446" duration="1837000" />
       <workItem from="1518022554573" duration="976000" />
       <workItem from="1518106317664" duration="781000" />
-      <workItem from="1518124519903" duration="8658000" />
+      <workItem from="1518124519903" duration="9155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92873000" />
+    <option name="totallyTimeSpent" value="93370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,9 +545,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17789166" sideWeight="0.48757765" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17789166" sideWeight="0.48757765" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.50292826" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04099561" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1097,11 +1095,11 @@
             <element signature="e#768#1003#0#PHP" expanded="false" />
             <element signature="e#1008#1319#0#PHP" expanded="false" />
             <element signature="e#1324#1596#0#PHP" expanded="false" />
-            <marker date="1518132797882" expanded="true" signature="263:359" placeholder="INSERT INTO reply... " />
-            <marker date="1518132797882" expanded="true" signature="835:943" placeholder="SELECT reply... " />
-            <marker date="1518132797882" expanded="true" signature="835:973" placeholder="SELECT reply... " />
-            <marker date="1518132797882" expanded="true" signature="1083:1153" placeholder="SELECT * FRO... reply" />
-            <marker date="1518132797882" expanded="true" signature="1416:1461" placeholder="SELECT COUNT... reply" />
+            <marker date="1518133633933" expanded="true" signature="263:359" placeholder="INSERT INTO reply... " />
+            <marker date="1518133633933" expanded="true" signature="835:943" placeholder="SELECT reply... " />
+            <marker date="1518133633933" expanded="true" signature="835:973" placeholder="SELECT reply... " />
+            <marker date="1518133633933" expanded="true" signature="1083:1153" placeholder="SELECT * FRO... reply" />
+            <marker date="1518133633933" expanded="true" signature="1416:1461" placeholder="SELECT COUNT... reply" />
           </folding>
         </state>
       </provider>
@@ -1143,64 +1141,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/App/Question.php">
+    <entry file="file://$PROJECT_DIR$/model/App/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
-            <element signature="e#154#237#0#PHP" expanded="false" />
-            <element signature="e#242#509#0#PHP" expanded="false" />
-            <element signature="e#515#582#0#PHP" expanded="false" />
-            <element signature="e#587#681#0#PHP" expanded="false" />
-            <element signature="e#686#781#0#PHP" expanded="false" />
-            <element signature="e#786#869#0#PHP" expanded="false" />
-            <element signature="e#874#952#0#PHP" expanded="false" />
-            <element signature="e#958#1019#0#PHP" expanded="false" />
-            <element signature="e#1024#1097#0#PHP" expanded="false" />
-            <element signature="e#1102#1177#0#PHP" expanded="false" />
-            <element signature="e#1182#1251#0#PHP" expanded="false" />
-            <element signature="e#1256#1321#0#PHP" expanded="false" />
+            <element signature="e#239#506#0#PHP" expanded="false" />
+            <element signature="e#512#579#0#PHP" expanded="false" />
+            <element signature="e#584#682#0#PHP" expanded="false" />
+            <element signature="e#687#777#0#PHP" expanded="false" />
+            <element signature="e#782#892#0#PHP" expanded="false" />
+            <element signature="e#897#991#0#PHP" expanded="false" />
+            <element signature="e#997#1058#0#PHP" expanded="false" />
+            <element signature="e#1063#1138#0#PHP" expanded="false" />
+            <element signature="e#1143#1214#0#PHP" expanded="false" />
+            <element signature="e#1219#1300#0#PHP" expanded="false" />
+            <element signature="e#1305#1378#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/App/Reply.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
-            <element signature="e#149#232#0#PHP" expanded="false" />
-            <element signature="e#237#504#0#PHP" expanded="false" />
-            <element signature="e#510#577#0#PHP" expanded="false" />
-            <element signature="e#582#664#0#PHP" expanded="false" />
-            <element signature="e#669#768#0#PHP" expanded="false" />
-            <element signature="e#773#856#0#PHP" expanded="false" />
-            <element signature="e#861#939#0#PHP" expanded="false" />
-            <element signature="e#945#1006#0#PHP" expanded="false" />
-            <element signature="e#1011#1078#0#PHP" expanded="false" />
-            <element signature="e#1083#1160#0#PHP" expanded="false" />
-            <element signature="e#1165#1234#0#PHP" expanded="false" />
-            <element signature="e#1239#1304#0#PHP" expanded="false" />
+            <element signature="e#141#224#0#PHP" expanded="false" />
+            <element signature="e#229#496#0#PHP" expanded="false" />
+            <element signature="e#502#569#0#PHP" expanded="false" />
+            <element signature="e#574#656#0#PHP" expanded="false" />
+            <element signature="e#661#760#0#PHP" expanded="false" />
+            <element signature="e#765#848#0#PHP" expanded="false" />
+            <element signature="e#853#931#0#PHP" expanded="false" />
+            <element signature="e#937#998#0#PHP" expanded="false" />
+            <element signature="e#1003#1070#0#PHP" expanded="false" />
+            <element signature="e#1075#1152#0#PHP" expanded="false" />
+            <element signature="e#1157#1226#0#PHP" expanded="false" />
+            <element signature="e#1231#1296#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/App/User.php">
+    <entry file="file://$PROJECT_DIR$/model/App/Question.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
-            <element signature="e#247#514#0#PHP" expanded="false" />
-            <element signature="e#520#587#0#PHP" expanded="false" />
-            <element signature="e#592#690#0#PHP" expanded="false" />
-            <element signature="e#695#785#0#PHP" expanded="false" />
-            <element signature="e#790#900#0#PHP" expanded="false" />
-            <element signature="e#905#999#0#PHP" expanded="false" />
-            <element signature="e#1005#1066#0#PHP" expanded="false" />
-            <element signature="e#1071#1146#0#PHP" expanded="false" />
-            <element signature="e#1151#1222#0#PHP" expanded="false" />
-            <element signature="e#1227#1308#0#PHP" expanded="false" />
-            <element signature="e#1313#1386#0#PHP" expanded="false" />
+            <element signature="e#146#229#0#PHP" expanded="false" />
+            <element signature="e#234#501#0#PHP" expanded="false" />
+            <element signature="e#507#574#0#PHP" expanded="false" />
+            <element signature="e#579#673#0#PHP" expanded="false" />
+            <element signature="e#678#773#0#PHP" expanded="false" />
+            <element signature="e#778#861#0#PHP" expanded="false" />
+            <element signature="e#866#944#0#PHP" expanded="false" />
+            <element signature="e#950#1011#0#PHP" expanded="false" />
+            <element signature="e#1016#1089#0#PHP" expanded="false" />
+            <element signature="e#1094#1169#0#PHP" expanded="false" />
+            <element signature="e#1174#1243#0#PHP" expanded="false" />
+            <element signature="e#1248#1313#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
