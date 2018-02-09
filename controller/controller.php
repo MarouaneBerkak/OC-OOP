@@ -18,7 +18,6 @@ function logOut()
 {
     session_destroy();
     header('location: index.php');
-    exit();
 }
 function createUser(array $data)
 {
