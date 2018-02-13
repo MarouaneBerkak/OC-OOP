@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/public/style.css" description=".shadowBox" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b533c6-94fb-4521-8254-2704056a378a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-    </list>
+    <list default="true" id="19b533c6-94fb-4521-8254-2704056a378a" name="Default" comment="" />
     <ignored path="Exercice POO.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -524,12 +521,12 @@
       <workItem from="1518191913726" duration="1198000" />
       <workItem from="1518512042570" duration="157000" />
       <workItem from="1518517771326" duration="597000" />
-      <workItem from="1518524928257" duration="4580000" />
+      <workItem from="1518524928257" duration="4744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102703000" />
+    <option name="totallyTimeSpent" value="102867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
