@@ -12,11 +12,13 @@ elseif(isset($_SESSION['user']))
     {
         if(!empty($_POST['question']))
         {
+            $questionSecure = htmlspecialchars($_POST['question']);
+
             if(isset($_POST['ask']))
             {
                 $data = array(
                     'userId' => $user->getId(),
-                    'question' => $_POST['question'],
+                    'question' => $questionSecure,
                     'published' => 1
                 );
                 postQuestion($data);
@@ -26,7 +28,7 @@ elseif(isset($_SESSION['user']))
             {
                 $data = array(
                     'userId' => $user->getId(),
-                    'question' => $_POST['question'],
+                    'question' => $questionSecure,
                     'published' => 0
                 );
                 postQuestion($data);
@@ -41,10 +43,12 @@ elseif(isset($_SESSION['user']))
     }
     elseif(isset($_GET['reply']))
     {
+        $replySecure = htmlspecialchars($_POST['reply']);
+
         if(!empty($_POST['reply']))
         {
             $data = array(
-                'reply' => $_POST['reply'],
+                'reply' => $replySecure,
                 'userId' => $user->getId(),
                 'questionId' => (int)$_GET['questionId']
             );
@@ -92,11 +96,16 @@ elseif(isset($_GET['action']))
     {
         if(!empty($_POST['firstName']) AND !empty($_POST['surname']) AND !empty($_POST['emailAddress']) AND !empty($_POST['password']))
         {
+            $firstNameSecure = htmlspecialchars($_POST['firstName']);
+            $surnameSecure = htmlspecialchars($_POST['surname']);
+            $emailAddressSecure = htmlspecialchars($_POST['emailAddress']);
+            $passwordSecure = htmlspecialchars($_POST['password']);
+
             $data = array(
-                'firstName' => $_POST['firstName'],
-                'surname' => $_POST['surname'],
-                'emailAddress' => $_POST['emailAddress'],
-                'password' => $_POST['password']
+                'firstName' => $firstNameSecure,
+                'surname' => $surnameSecure,
+                'emailAddress' => $emailAddressSecure,
+                'password' => $passwordSecure
             );
             createUser($data);
         }
@@ -111,9 +120,12 @@ elseif(isset($_GET['action']))
     {
         if(!empty($_POST['emailAddress']) AND !empty($_POST['password']))
         {
+            $emailAddressSecure = htmlspecialchars($_POST['emailAddress']);
+            $passwordSecure = htmlspecialchars($_POST['password']);
+
             $data = array(
-                'emailAddress' => $_POST['emailAddress'],
-                'password' => $_POST['password']
+                'emailAddress' => $emailAddressSecure,
+                'password' => $passwordSecure
             );
             logIn($data);
         }
