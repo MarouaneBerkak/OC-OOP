@@ -1,0 +1,15 @@
+{
+    "name": "oc-oop/ask",
+    "authors": [
+        {
+            "name": "Marouane Berkak",
+            "email": "marouane.168@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload" : {
+        "psr-4" : {"Ask\\" : "model"}
+    }
+}

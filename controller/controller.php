@@ -7,8 +7,7 @@ use Ask\QuestionManager;
 use Ask\ReplyManager;
 use Ask\UserManager;
 
-require('model/Autoloader.php');
-Ask\Autoloader::register();
+require('vendor/autoload.php');
 
 function logInView()
 {
