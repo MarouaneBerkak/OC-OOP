@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19b533c6-94fb-4521-8254-2704056a378a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/controller.php" afterPath="$PROJECT_DIR$/controller/controller.php" />
     </list>
     <ignored path="Exercice POO.iws" />
@@ -110,14 +109,12 @@
       <file leaf-file-name="controller.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+            <state relative-caret-position="276">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <element signature="e#7#25#0#PHP" expanded="true" />
                 <element signature="n#logInView#0;n#!!top" expanded="false" />
                 <element signature="n#logOut#0;n#!!top" expanded="false" />
-                <element signature="n#createUser#0;n#!!top" expanded="false" />
-                <element signature="e#394#816#0#PHP" expanded="false" />
                 <element signature="n#questionList#0;n#!!top" expanded="false" />
                 <element signature="n#postQuestion#0;n#!!top" expanded="false" />
                 <element signature="n#postReply#0;n#!!top" expanded="false" />
@@ -547,12 +544,12 @@
       <workItem from="1518512042570" duration="157000" />
       <workItem from="1518517771326" duration="597000" />
       <workItem from="1518524928257" duration="5296000" />
-      <workItem from="1518533621374" duration="39000" />
+      <workItem from="1518533621374" duration="343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103458000" />
+    <option name="totallyTimeSpent" value="103762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -720,8 +717,6 @@
             <element signature="e#7#25#0#PHP" expanded="true" />
             <element signature="n#logInView#0;n#!!top" expanded="false" />
             <element signature="n#logOut#0;n#!!top" expanded="false" />
-            <element signature="n#createUser#0;n#!!top" expanded="false" />
-            <element signature="e#394#816#0#PHP" expanded="false" />
             <element signature="n#questionList#0;n#!!top" expanded="false" />
             <element signature="n#postQuestion#0;n#!!top" expanded="false" />
             <element signature="n#postReply#0;n#!!top" expanded="false" />
@@ -1164,14 +1159,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        <state relative-caret-position="276">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="e#7#25#0#PHP" expanded="true" />
             <element signature="n#logInView#0;n#!!top" expanded="false" />
             <element signature="n#logOut#0;n#!!top" expanded="false" />
-            <element signature="n#createUser#0;n#!!top" expanded="false" />
-            <element signature="e#394#816#0#PHP" expanded="false" />
             <element signature="n#questionList#0;n#!!top" expanded="false" />
             <element signature="n#postQuestion#0;n#!!top" expanded="false" />
             <element signature="n#postReply#0;n#!!top" expanded="false" />

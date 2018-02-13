@@ -25,7 +25,7 @@ function createUser(array $data)
     {
         $_SESSION['warning'] = 'Email address already used !';
         header('location: index.php');
-        exit();
+        
     }
     else
     {
