@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/public/style.css" description=".shadowBox" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b533c6-94fb-4521-8254-2704056a378a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/Autoloader.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/controller.php" afterPath="$PROJECT_DIR$/controller/controller.php" />
-    </list>
+    <list default="true" id="19b533c6-94fb-4521-8254-2704056a378a" name="Default" comment="" />
     <ignored path="Exercice POO.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -169,7 +164,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -622,12 +617,12 @@
       <workItem from="1518191913726" duration="1198000" />
       <workItem from="1518512042570" duration="157000" />
       <workItem from="1518517771326" duration="597000" />
-      <workItem from="1518524928257" duration="2468000" />
+      <workItem from="1518524928257" duration="2722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100591000" />
+    <option name="totallyTimeSpent" value="100845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,7 +634,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17789166" sideWeight="0.48757765" order="1" side_tool="false" content_ui="combo" />
@@ -1216,7 +1211,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
