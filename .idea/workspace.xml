@@ -166,8 +166,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="90">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -233,7 +233,6 @@
         <option value="$PROJECT_DIR$/view/frontend/logInView.php" />
         <option value="$PROJECT_DIR$/view/frontend/questionListView.php" />
         <option value="$PROJECT_DIR$/model/QuestionManager.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/view/templateBack.php" />
         <option value="$PROJECT_DIR$/model/Autoloader.php" />
         <option value="$PROJECT_DIR$/model/ReplyManager.php" />
@@ -244,6 +243,7 @@
         <option value="$PROJECT_DIR$/view/backend/myQuestionsView.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/controller/controller.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -620,12 +620,12 @@
       <workItem from="1518191913726" duration="1198000" />
       <workItem from="1518512042570" duration="157000" />
       <workItem from="1518517771326" duration="597000" />
-      <workItem from="1518524928257" duration="3192000" />
+      <workItem from="1518524928257" duration="3317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101315000" />
+    <option name="totallyTimeSpent" value="101440000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1205,8 +1205,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="90">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
