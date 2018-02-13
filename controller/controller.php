@@ -46,7 +46,6 @@ function logIn(array $data)
         {
             $_SESSION['warning'] = 'Wrong password!';
             header('location: index.php');
-            exit();
         }
         else
         {
@@ -59,7 +58,6 @@ function logIn(array $data)
     {
         $_SESSION['warning'] = 'This email address does not correspond to any user';
         header('location: index.php');
-        exit();
     }
 }
 function questionList()
